@@ -1,0 +1,199 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+.btn-price a,.btn-price a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+}
+.head-map{
+    width: 30%;
+    height: 100%;
+    background-image: url(../img/map3.png);
+    text-align: center;
+
+}
+.box-map{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 55px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color:white;
+}
+.btn-map i{
+    font-size: 18px;
+    color: rgb(199, 52, 52);
+}
+.btn-map :hover{
+    opacity: 0.6;
+}
+.head-name{
+    width: 70%;
+    height: 100%;
+}
+.name-txt{
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+.name-txt h2{
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.name-select{
+    width: 100%;
+    height: 75px;
+    margin-top: 75px;
+    display: flex;
+}
+.select-colum1{
+    width: 60%;
+    height: 100%;
+}
+.select-colum1 span{
+    font-size: 15px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.select-colum2{
+    width: 40%;
+    height: 100%;
+}
+.select-colum2 span{
+    font-size: 15px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.select-colum2 select{
+    font-size: 15px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.content{
+    width: 100%;
+    height: 830px;
+    display: flex;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+.left{
+    width: 30%;
+    height: auto;
+
+}
+.select-item{
+    
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.select-item span{
+    margin-left: 30px;
+    font-size: 17px;
+}
+.select-item button{
+    text-align: center;
+    margin-left:30px;
+    background: #000;
+    font-weight: 700;
+    color: #ccc;
+}
+.check input{
+    margin-left: 40px;
+    float: left;
+}
+.check span{
+    font-size: 13px;
+    float: left;
+}
+.border{
+    border-width:0 0 1px ;
+    border-color:#c3c3c3 ;
+}
+.right{
+    width: 68%;
+    height: 100%;
+    background-color: #f2f2f2;
+    margin-left: 2%;
+}
+.right-item{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.item-img{
+    width: 30%;
+    height: 100%;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+}
+.item-cv{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+.name span{
+    font-size: 20px;
+}
+.cv-note{
+    margin-top: 10%;
+}
+.btn-price button{
+    margin-top: 10px;
+    border-radius: 10px;
+    width:50%;
+    height: 40px;
+    background-color: yellow;
+}
+.btn-price :hover{
+    opacity: 0.6;
+}
+.item-rate{
+    width: 30%;
+    height: 100%;
+    padding-left: 20px;
+}
+.fa-star{
+    color: #00aa6c;
+}
+.icon{
+    margin-top: 10%;
+    padding: 10px 0;
+}
+.content {
+    padding: 30px 30px;
+    background-color: #fff;
+    height: auto;
+}
+.container.p-4.pb-0 {
+    height: auto;
+}

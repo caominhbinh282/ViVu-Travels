@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lora:ital,wght@0,500;1,400;1,500&family=Source+Code+Pro:ital,wght@0,500;1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    margin:0 auto;
+}
+nav{
+    font-weight: 700;
+    background-color: #fff;
+    padding: 10px 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+nav span{
+    float: left;
+}
+nav span a{
+    height: 100%;
+    font-size: 35px;
+    text-decoration: none;
+}
+nav .login{
+    margin-left:10px;
+    background-color: #000;
+    box-shadow:2px 2px 5px 2px grey; 
+    height: 52px;
+    width: 150px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius:25px;
+}
+nav .login:hover{
+    opacity: 0.8;
+}
+nav ul{
+    line-height: 50px;
+    float: right;
+    display: flex;
+}
+ .input{
+    width: 350px;
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+ .input input{
+    float: right;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: solid 1px #c3c3c3;
+    border-radius: 30px;
+    outline: none;
+    padding: 0 20px;
+}
+ .input i{
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    line-height: 40px;
+    float: right;
+}
+ .input i:hover{
+    cursor: pointer;
+}
+nav ul li{
+    margin-left: 15px;
+    padding:0 20px;
+    font-size: 18px; 
+    border-radius:25px;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid;  
+}
+nav ul li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+nav .login{
+    float: right;
+}
+
+
+/*------Container--------*/
+.content{
+    padding: 30px 30px;
+    background-color: #fff;
+    height: auto;
+}
+.content .menu{
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.menu ul{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+.menu ul li{
+    width: 20%;
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: inline-block;
+}
+.menu ul li a{
+    color: #000;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 20px;
+}
+.menu li i{
+    line-height: 60px;
+    padding-left: 10px  ;
+}
+.menu .text{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    line-height: 60px;
+    font-weight: 600;
+
+}
+.menu ul li:hover,.menu a:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+ .menu .active{ 
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.active span{ 
+    color: #fff;
+}
+
+/*--------------------------*/
+
+.container h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box{
+    padding:10% 75px;
+    margin:0  auto;
+    width: 85%;
+    height: 230px;
+    background:no-repeat center  url("../img/img1.jpg");
+    background-size: cover;
+    position: relative;
+    border-radius: 50px;
+}
+.box .search{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    position: relative;
+}
+.search input{
+    padding-left:50px ;
+    width: 100%;
+    height: 70px;
+    border-radius: 5rem;
+    box-shadow: -5px 5px 5px #000;
+    background: #fff;
+    font-size: 22px;
+}
+.search input:focus{
+    outline: none;
+}
+.search i{
+    line-height: 73px;
+    position: absolute;
+    right: 40px;
+    font-size: 150%;
+}
+.search i:hover{
+    cursor: pointer;
+}
+
+/*--------------------*/
+
+body h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Lora" ;
+}
+
+.slide{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    position: relative;
+    margin: 20px auto;
+}
+
+.slide ul{
+    width: 90%;
+    height: 100%;
+    margin: 5px 60px;
+    overflow: hidden;
+    justify-content: left;
+    align-items: center;
+    overflow-x: auto;
+    display: flex;
+}
+.slide ul::-webkit-scrollbar{
+    display: none;
+}
+.slide ul li{
+    min-width: 30%;
+    height: 100%;
+    margin: 0 20px;
+    display: inline-flex;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s;
+}
+.slide ul li img{
+    width: 100%;
+    height: 100%;
+}
+.slide ul li:hover{
+    cursor: pointer;
+    opacity: 0.7;   
+}
+.slide .btn{
+    position: absolute;
+    top: 42%;
+    left: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.slide .btn:nth-of-type(2){
+    left: 96%;
+
+}
+.slide i{
+    margin-top: 5px;
+
+}
+
+.slide .btn:hover{
+    cursor: pointer;
+    background: #8f8f8f;
+
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+footer{
+    margin-top: 50px;
+    font-size: 35px;
+    z-index: 100;
+}
+footer .btn{
+    width: 100px;
+    margin-left: 100px;
+
+}
+footer span{
+    color: black;
+    padding-right: 20px;
+}
+footer .p-3{
+    font-weight: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+     height:70px;
+}
+
+.modal-content .input{
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:780px ){
+    nav .login{
+        display: none;
+    }
+    nav .input{
+        float: right;
+        width: 50%;
+    }
+    .menu ul li .text{
+        display: none;
+    }
+    .menu ul li span,.menu ul li i{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .slide ul li{
+        min-width: 100%;
+    }
+
+  } 
+
+@media  screen and (max-width:1130px ) {
+    nav{
+        position: fixed;
+        top: 0;
+    }
+    nav ul li{
+        display: none;
+    }
+    .container{
+        margin-top: 100px;
+    }
+    .container h3{
+        padding-top: 70px;
+    }
+    .slide ul li{
+        min-width: 45%;
+    }
+  }
+  
+  button {
+      position: relative;
+  }
+  
+  i.fa.fa-search {
+      position: absolute;
+      top: 0;
+  }
+  

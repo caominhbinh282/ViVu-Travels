@@ -1,0 +1,16 @@
+#zoom {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    }
+     
+    #zoom:hover {
+    transform: scale(2,2);  
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    }img#zoom {
+        z-index: 10;
+    }

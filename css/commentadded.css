@@ -1,0 +1,15 @@
+.list-cmt {
+    position: relative;
+}
+
+img.imgshare {
+    position: absolute;
+    right: -80%;
+    top: 0;
+}.list-cmt {
+    width: 110%;
+}
+
+.user-info__basic {
+    width: 325px;
+}

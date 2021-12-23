@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    min-height: auto;
+    background-color: #f3f3f3;
+    padding: 0 ;
+}
+.address .map iframe{
+    display: block;
+    width: 400px;
+    height: 200px;
+}

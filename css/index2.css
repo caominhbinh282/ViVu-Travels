@@ -1,0 +1,21 @@
+  .content{
+    margin-top: 30px;
+  }
+  .container{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  button {
+      position: relative;
+  }
+  
+  i.fa.fa-search {
+      position: absolute;
+      top: 0;
+  }
+  .place-card__content:hover{
+    background-color:  #00aa6c;
+}
+
+

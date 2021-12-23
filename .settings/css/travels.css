@@ -1,0 +1,20 @@
+.line {
+    clear: both;
+}
+
+.row {
+    width: 30%;
+    margin: auto;
+}.row2 {
+    width: 100%;
+    height: auto;
+}.row2 {
+    width: 100%;
+    float: left;
+}
+.col-sm-4.hotel {
+    margin: 1%;
+}.col-sm-4.hotel {
+    margin: 1%;
+    width: 30%;
+}

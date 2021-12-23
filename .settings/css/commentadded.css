@@ -1,0 +1,9 @@
+.list-cmt {
+    position: relative;
+}
+
+img.imgshare {
+    position: absolute;
+    right: -80%;
+    top: 0;
+}
