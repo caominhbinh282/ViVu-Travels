@@ -12,7 +12,7 @@
     <body>
 <footer class="text-center text-white">
     <div class="text-center p-3">
-    © 2020 Copyright
+    © 2022 Copyright
     </div>
 </footer>
 </body>
