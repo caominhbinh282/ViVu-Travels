@@ -30,7 +30,9 @@
                     <div class="box-map">
                         <a href="https://www.google.com/maps/@14.1053708,108.4191312,9z">
                         <button class="btn-map">
-                            <i class="fas fa-map-marker-alt"></i> Xem bản đồ
+                            <a href="https://www.google.com/maps/place/ <?php echo $_GET['findingtravel']?>"   >
+                                <i class="fas fa-map-marker-alt"></i> Xem bản đồ
+                            </a>
                         </button>
                         </a>
                     </div>
