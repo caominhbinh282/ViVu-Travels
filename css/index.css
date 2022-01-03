@@ -6,6 +6,9 @@
     margin:0;
     padding:0;
 }
+a:hover{
+    text-decoration:none;
+}
 body{
     width: 100%;
     margin:0 auto;
@@ -88,12 +91,13 @@ nav ul li{
     border-radius:25px;
     list-style: none;
     display: inline-block;
-    border: 1px solid;  
+    border: 1px solid #fff;  
+    background-color: #fff;
+    
 }
 nav ul li:hover{
     opacity: 0.8;
     cursor: pointer;
-    background-color: #eeeeee;
 }
 nav .login{
     float: right;
@@ -166,9 +170,9 @@ nav .login{
 .box{
     padding:0;
     margin:0  auto;
-    width: 100%;
+    width: 80%;
     height: 170px;
-    background:no-repeat center  url("../img/img1.jpg");
+    background:no-repeat  url("https://image.shutterstock.com/image-illustration/flat-web-banner-on-theme-260nw-390491551.jpg");
     background-size: cover;
     position: relative;
     border-radius: 50px;
