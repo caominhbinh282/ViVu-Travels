@@ -194,7 +194,7 @@ session_start();
           <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title ">Địa điểm du lịch</h4>
+              <h4 class="modal-title ">Du lịch</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
@@ -269,7 +269,7 @@ session_start();
           <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Nhà hàng ABC</h4>
+              <h4 class="modal-title">Nhà hàng</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
 
             </div>
