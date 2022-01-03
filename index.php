@@ -69,7 +69,7 @@
 
                     <a href="travel_detail.php?id=S1&idimg=Img1"><img alt="Qries" src="./img/anh1.png">
                               </a>
-
+                    
                 </li>
                 <li class="slide-item">
                  
